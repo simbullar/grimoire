@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tab System</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/dnd-icon.css">
+    <link rel="stylesheet" href="css/dnd-icon-font.css">
 </head>
 <body>
 
     <!-- Tab Bar -->
-    <div id="tab-container">
-        <button class="tab-button active" data-tab="notes-content">Notes</button>
+    <div id="tab-container">  
+        <button class="tab-button active" data-tab="notes-content">Notes </button>
         <button class="tab-button" data-tab="map-content">Maps</button>
         <button class="tab-button" data-tab="character-content">Characters & Spells</button>
         <button class="tab-button" data-tab="wiki-content">Wiki</button>
@@ -24,6 +26,8 @@
         <div id="notes-content" class="tab-content active">
             <h2>Notes Content</h2>
             <p>This is the main screen.</p>
+            <span class='large icon-d20'></span>
+            D20
         </div>
 
         <!-- Settings Content -->
@@ -57,7 +61,14 @@
     </div>
     <div id="wiki-content" class="tab-content">
         <h2>Wiki System</h2>
-        <p>That's the settigs</p>
+        <h3>Icon List</h3>
+        <table width="100%">
+            <tr><td valign="top" width="20%"><p><strong>Logos</strong><br><span class="large icon-dnd"></span> D&amp;D<br><span class="large icon-al"></span> Adventurers League<br><br><strong>Damage Types</strong><br><span class="large icon-bludgeoning"></span> Bludgeoning<br><span class="large icon-piercing"></span> Piercing<br><span class="large icon-slashing"></span> Slashing<br><span class="large icon-acid"></span> Acid<br><span class="large icon-cold"></span> Cold<br><span class="large icon-fire"></span> Fire<br><span class="large icon-force"></span> Force<br><span class="large icon-lightning"></span> Lightning<br><span class="large icon-necrotic"></span> Necrotic<br><span class="large icon-poison"></span> Poison<br><span class="large icon-psychic"></span> Psychic<br><span class="large icon-radiant"></span> Radiant<br><span class="large icon-thunder"></span> Thunder<br><span class="large icon-immunity"></span> Immunity<br><span class="large icon-resistance"></span> Resistance<br><span class="large icon-vulnerability"></span> Vulnerability<br>
+            </p></td><td valign="top" width="20%"><p><strong>Actions</strong><br><span class="large icon-search"></span> Search<br><span class="large icon-action"></span> Action<br><span class="large icon-bonus-action"></span> Bonus Action<br><span class="large icon-reaction"></span> Reaction<br><span class="large icon-round"></span> Round/Turn<br><br><strong>Targets/Areas</strong><br><span class="large icon-target"></span> Target<br><span class="large icon-self"></span> Self<br><span class="large icon-touch"></span> Touch<br><span class="large icon-circle"></span> Circle<br><span class="large icon-square"></span> Square<br><span class="large icon-sphere"></span> Sphere<br><span class="large icon-cube"></span> Cube<br><span class="large icon-cone"></span> Cone<br><span class="large icon-cylinder"></span> Cylinder<br><span class="large icon-line"></span> Line<br><span class="large icon-wall"></span> Wall<br><span class="large icon-reach"></span> Reach<br><span class="large icon-range"></span> Distance/Range<br>
+            </p></td><td valign="top" width="20%"><p><strong>Attacks</strong><br><span class="large icon-initiative"></span> Initiative<br><span class="large icon-melee"></span> Melee<br><span class="large icon-ranged"></span> Ranged<br><span class="large icon-spell"></span> Spell<br><br><strong>Entities</strong><br><span class="large icon-dm"></span> DM<br><span class="large icon-person"></span> Person<br><span class="large icon-location"></span> Location<br><span class="large icon-map"></span> Map<br><span class="large icon-organization"></span> Organization<br><span class="large icon-monster"></span> Monster<br><span class="large icon-terrain"></span> Terrain<br><span class="large icon-time"></span> Date/Time<br><span class="large icon-light"></span> Light<br><span class="large icon-vision"></span> Vision<br><span class="large icon-loot"></span> Loot<br><span class="large icon-book"></span> Book<br><span class="large icon-spellbook"></span> Spellbook<br><span class="large icon-potion"></span> Potion<br><span class="large icon-scroll"></span> Spell Scroll<br>
+            </p></td><td valign="top" width="20%"><p><strong>Spell Schools</strong><br><span class="large icon-octagon"></span> Generic Spell<br><span class="large icon-abjuration"></span> Abjuration<br><span class="large icon-conjuration"></span> Conjuration<br><span class="large icon-divination"></span> Divination<br><span class="large icon-enchantment"></span> Enchantment<br><span class="large icon-evocation"></span> Evocation<br><span class="large icon-illusion"></span> Illusion<br><span class="large icon-necromancy"></span> Necromancy<br><span class="large icon-transmutation"></span> Transmutation<br><br><strong>Magic/Spell Concepts</strong><br><span class="large icon-attunement"></span> Attunement<br><span class="large icon-ritual"></span> Ritual<br><span class="large icon-concentration"></span> Concentration<br><span class="large icon-upcast"></span> Up-cast<br><span class="large icon-instantaneous"></span> Instantaneous<br><span class="large icon-not-applicable"></span> Not-Applicable<br><br><strong>Proficiency</strong><br><span class="large icon-skill-0"></span> Not proficient<br><span class="large icon-skill-half"></span> Half proficient<br><span class="large icon-skill-1"></span> Proficient<br><span class="large icon-skill-2"></span> Expertise<br>
+            </p></td><td valign="top" width="20%"><p><strong>Checks &amp; Rolls</strong><br><span class="large icon-saving-throw"></span> Saving Throw<br><span class="large icon-skillcheck"></span> Skill Check<br><span class="large icon-advantage"></span> Advantage<br><span class="large icon-disadvantage"></span> Disadvantage<br><span class="large icon-d4"></span> d4<br><span class="large icon-d6"></span> d6<br><span class="large icon-d8"></span> d8<br><span class="large icon-d10"></span> d10<br><span class="large icon-d12"></span> d12<br><span class="large icon-d20"></span> d20<br><span class="large icon-roll-dice"></span> Dice Roll<br><span class="large icon-tick"></span> Success<br><span class="large icon-cross"></span> Failure<br><br><strong>Hitpoints &amp; AC</strong><br><span class="large icon-ac"></span> AC<br><span class="large icon-hp-full"></span> Full HP/Heal<br><span class="large icon-hp-empty"></span> Empty HP<br><span class="large icon-hp-half"></span> Damage halved<br><span class="large icon-hp-temp"></span> Temporary HP<br>
+            </p></td></tr></table>
 </div>
 </div>
     <script src="javascript/script.js"></script>

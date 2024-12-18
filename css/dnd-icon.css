@@ -1,0 +1,306 @@
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", dndicon !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    font-size: 15px;
+    text-transform: none;
+    line-height: 1;
+    padding: 0px 1px 0px 1px;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-vulnerability:before {
+    content: "\e95c";
+  }
+  .icon-immunity:before {
+    content: "\e95d";
+  }
+  .icon-resistance:before {
+    content: "\e95e";
+  }
+  .icon-abjuration:before {
+    content: "\e900";
+  }
+  .icon-ac:before {
+    content: "\e901";
+  }
+  .icon-acid:before {
+    content: "\e902";
+  }
+  .icon-action:before {
+    content: "\e903";
+  }
+  .icon-advantage:before {
+    content: "\e904";
+  }
+  .icon-al:before {
+    content: "\e905";
+  }
+  .icon-attunement:before {
+    content: "\e906";
+  }
+  .icon-bludgeoning:before {
+    content: "\e907";
+  }
+  .icon-bonus-action:before {
+    content: "\e908";
+  }
+  .icon-book:before {
+    content: "\e909";
+  }
+  .icon-bubble:before {
+    content: "\e90a";
+  }
+  .icon-circle:before {
+    content: "\e90b";
+  }
+  .icon-cog:before {
+    content: "\e90c";
+  }
+  .icon-cold:before {
+    content: "\e90d";
+  }
+  .icon-concentration:before {
+    content: "\e90e";
+  }
+  .icon-cone:before {
+    content: "\e90f";
+  }
+  .icon-conjuration:before {
+    content: "\e910";
+  }
+  .icon-cross:before {
+    content: "\e911";
+  }
+  .icon-cube:before {
+    content: "\e912";
+  }
+  .icon-cylinder:before {
+    content: "\e913";
+  }
+  .icon-d4:before {
+    content: "\e914";
+  }
+  .icon-d6:before {
+    content: "\e915";
+  }
+  .icon-d8:before {
+    content: "\e916";
+  }
+  .icon-d10:before {
+    content: "\e917";
+  }
+  .icon-d12:before {
+    content: "\e918";
+  }
+  .icon-d20:before {
+    content: "\e919";
+  }
+  .icon-disadvantage:before {
+    content: "\e91a";
+  }
+  .icon-divination:before {
+    content: "\e91b";
+  }
+  .icon-dm:before {
+    content: "\e91c";
+  }
+  .icon-dnd:before {
+    content: "\e91d";
+  }
+  .icon-enchantment:before {
+    content: "\e91e";
+  }
+  .icon-evocation:before {
+    content: "\e91f";
+  }
+  .icon-fire:before {
+    content: "\e920";
+  }
+  .icon-force:before {
+    content: "\e921";
+  }
+  .icon-hp-empty:before {
+    content: "\e922";
+  }
+  .icon-hp-full:before {
+    content: "\e923";
+  }
+  .icon-hp-half:before {
+    content: "\e924";
+  }
+  .icon-hp-temp:before {
+    content: "\e925";
+  }
+  .icon-illusion:before {
+    content: "\e926";
+  }
+  .icon-initiative:before {
+    content: "\e927";
+  }
+  .icon-instantaneous:before {
+    content: "\e928";
+  }
+  .icon-light:before {
+    content: "\e929";
+  }
+  .icon-lightning:before {
+    content: "\e92a";
+  }
+  .icon-line:before {
+    content: "\e92b";
+  }
+  .icon-location:before {
+    content: "\e92c";
+  }
+  .icon-loot:before {
+    content: "\e92d";
+  }
+  .icon-map:before {
+    content: "\e92e";
+  }
+  .icon-melee:before {
+    content: "\e92f";
+  }
+  .icon-monster:before {
+    content: "\e930";
+  }
+  .icon-necromancy:before {
+    content: "\e931";
+  }
+  .icon-necrotic:before {
+    content: "\e932";
+  }
+  .icon-not-applicable:before {
+    content: "\e933";
+  }
+  .icon-octagon:before {
+    content: "\e934";
+  }
+  .icon-organization:before {
+    content: "\e935";
+  }
+  .icon-person:before {
+    content: "\e936";
+  }
+  .icon-piercing:before {
+    content: "\e937";
+  }
+  .icon-poison:before {
+    content: "\e938";
+  }
+  .icon-potion:before {
+    content: "\e939";
+  }
+  .icon-psychic:before {
+    content: "\e93a";
+  }
+  .icon-radiant:before {
+    content: "\e93b";
+  }
+  .icon-range:before {
+    content: "\e93c";
+  }
+  .icon-ranged:before {
+    content: "\e93d";
+  }
+  .icon-reach:before {
+    content: "\e93e";
+  }
+  .icon-reaction:before {
+    content: "\e93f";
+  }
+  .icon-ritual:before {
+    content: "\e940";
+  }
+  .icon-roll-dice:before {
+    content: "\e941";
+  }
+  .icon-round:before {
+    content: "\e942";
+  }
+  .icon-saving-throw:before {
+    content: "\e943";
+  }
+  .icon-scroll:before {
+    content: "\e944";
+  }
+  .icon-search:before {
+    content: "\e945";
+  }
+  .icon-self:before {
+    content: "\e946";
+  }
+  .icon-skill-0:before {
+    content: "\e947";
+  }
+  .icon-skill-1:before {
+    content: "\e948";
+  }
+  .icon-skill-2:before {
+    content: "\e949";
+  }
+  .icon-skillcheck:before {
+    content: "\e94a";
+  }
+  .icon-skill-half:before {
+    content: "\e94b";
+  }
+  .icon-slashing:before {
+    content: "\e94c";
+  }
+  .icon-spell:before {
+    content: "\e94d";
+  }
+  .icon-spellbook:before {
+    content: "\e94e";
+  }
+  .icon-sphere:before {
+    content: "\e94f";
+  }
+  .icon-square:before {
+    content: "\e950";
+  }
+  .icon-star:before {
+    content: "\e951";
+  }
+  .icon-target:before {
+    content: "\e952";
+  }
+  .icon-terrain:before {
+    content: "\e953";
+  }
+  .icon-thunder:before {
+    content: "\e954";
+  }
+  .icon-tick:before {
+    content: "\e955";
+  }
+  .icon-time:before {
+    content: "\e956";
+  }
+  .icon-touch:before {
+    content: "\e957";
+  }
+  .icon-transmutation:before {
+    content: "\e958";
+  }
+  .icon-upcast:before {
+    content: "\e959";
+  }
+  .icon-vision:before {
+    content: "\e95a";
+  }
+  .icon-wall:before {
+    content: "\e95b";
+  }
+
+  .large {
+    font-size: x-large;
+}
