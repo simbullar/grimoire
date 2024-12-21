@@ -4,6 +4,7 @@ process.on('uncaughtException', (error) => {
 
 const { app, BrowserWindow } = require('electron');
 const path = require('node:path');
+let mainWindow ;
 
 const createWindow = () => {
   const mainWindow = new BrowserWindow({
@@ -11,6 +12,7 @@ const createWindow = () => {
     height: 600,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
+      webSecurity: false,
     },
   });
 
@@ -27,6 +29,9 @@ app.whenReady().then(() => {
 });
 
 app.on('window-all-closed', () => {
-  if (process.platform !== 'darwin') app.quit();
+  console.log('window-all-closed event triggered');
+  app.quit();
 });
-
+mainWindow.on('close', () => {
+  console.log('mainWindow close event triggered');
+});
