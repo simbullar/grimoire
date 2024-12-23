@@ -17,7 +17,7 @@ const createWindow = () => {
   });
 
   mainWindow.loadFile('index.html');
-  mainWindow.webContents.openDevTools(); // Uncomment for debugging
+  //mainWindow.webContents.openDevTools(); // Uncomment for debugging
 };
 
 app.whenReady().then(() => {
@@ -31,6 +31,7 @@ app.whenReady().then(() => {
 app.on('window-all-closed', () => {
   console.log('window-all-closed event triggered');
   app.quit();
+  return
 });
 mainWindow.on('close', () => {
   console.log('mainWindow close event triggered');
