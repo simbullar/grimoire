@@ -14,9 +14,14 @@ function switchTab(tabName) {
     const selectedContent = document.getElementById(tabName);
     selectedContent.classList.add("active");
 
+    //* i pulled this shit from the init commit
+    //* omg i missed this
+    
+    document.querySelector(`[data-tab="${tabName}"]`).classList.add("active");
+
     // Show and activate the .content-container-wiki when wiki-content tab is selected
-    const wikiContainer = document.querySelector(".content-container-wiki");
-    wikiContainer.classList.toggle("active", tabName === "wiki-content");
+ //   const wikiContainer = document.querySelector(".content-container-wiki");
+ //  wikiContainer.classList.toggle("active", tabName === "wiki-content");
 }
 // Add event listeners to each tab button
 tabButtons.forEach(button => {

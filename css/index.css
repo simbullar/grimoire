@@ -87,7 +87,7 @@ table th, table td {
   
 
 .tab-button.active {
-    background: #8a8473;
+    background-color: #8a8473;
     font-weight: bold;
 }
 
