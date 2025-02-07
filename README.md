@@ -1,4 +1,4 @@
-# Introducing Grimoire - 
+# Introducing Grimoire 
 ## Created by simbullar
 ## Made with Electron
 
